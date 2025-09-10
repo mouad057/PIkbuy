@@ -10,7 +10,7 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-        /* Réinitialisation et styles de base */
+        
         * {
             box-sizing: border-box;
             margin: 0;
@@ -35,7 +35,7 @@
             padding: 0 20px;
         }
 
-        /* En-tête (Header) */
+       
         .site-header {
             padding: 15px 40px;
             border-bottom: 1px solid #30363d;
@@ -110,7 +110,7 @@
             font-size: 20px;
         }
 
-        /* Sous-navigation (Filtres) */
+      
         .filters-nav {
             display: flex;
             gap: 25px;
@@ -139,7 +139,7 @@
             color: #ffffff;
         }
         
-        /* --- STYLES ADAPTÉS POUR LA PAGE STORE --- */
+
         
         .page-title {
             padding: 30px 0;
@@ -147,7 +147,7 @@
             font-weight: 600;
         }
 
-        /* Grille des produits */
+       
         .product-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -155,7 +155,7 @@
             padding-bottom: 40px;
         }
 
-        /* Carte de produit */
+       
         .product-card {
             background-color: #161b22;
             border-radius: 16px;
@@ -202,7 +202,7 @@
             font-size: 18px;
             font-weight: 600;
             margin-bottom: 15px;
-            flex-grow: 1; /* Permet au titre de prendre l'espace disponible */
+            flex-grow: 1; 
         }
         
         .product-footer {
@@ -234,7 +234,7 @@
             color: #ffffff;
         }
 
-        /* Bouton Flottant WhatsApp */
+        
         .whatsapp-fab {
             position: fixed;
             bottom: 25px;
@@ -370,4 +370,5 @@
     </a>
 
 </body>
+
 </html>
