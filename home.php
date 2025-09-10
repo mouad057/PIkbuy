@@ -10,7 +10,7 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-        /* Réinitialisation et styles de base */
+       
         * {
             box-sizing: border-box;
             margin: 0;
@@ -35,7 +35,7 @@
             padding: 0 20px;
         }
 
-        /* En-tête (Header) */
+        
         .site-header {
             padding: 15px 40px;
             border-bottom: 1px solid #30363d;
@@ -110,7 +110,7 @@
             font-size: 20px;
         }
 
-        /* Sous-navigation (Filtres) */
+      
         .filters-nav {
             display: flex;
             gap: 25px;
@@ -141,9 +141,7 @@
             color: #ffffff;
         }
         
-        /* --- NOUVEAU STYLE GRILLE D'AFFICHES --- */
-
-        /* Grille des événements */
+        
         .event-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -151,7 +149,7 @@
             padding-bottom: 40px;
         }
 
-        /* Carte affiche */
+       
         .poster-card {
             display: block;
             border-radius: 12px;
@@ -167,12 +165,12 @@
             width: 100%;
             height: auto;
             display: block;
-            aspect-ratio: 2 / 3; /* Ratio pour garder une forme d'affiche */
+            aspect-ratio: 2 / 3; 
             object-fit: cover;
-            background-color: #161b22; /* Couleur de fond si l'image charge lentement */
+            background-color: #161b22; 
         }
 
-        /* Bouton Flottant WhatsApp */
+       
         .whatsapp-fab {
             position: fixed;
             bottom: 25px;
@@ -267,4 +265,5 @@
     </a>
 
 </body>
+
 </html>
