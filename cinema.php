@@ -10,7 +10,7 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-        /* Réinitialisation et styles de base */
+        
         * {
             box-sizing: border-box;
             margin: 0;
@@ -35,11 +35,11 @@
             padding: 0 20px;
         }
 
-        /* En-tête (Header) */
+       
         .site-header {
             padding: 15px 40px;
             border-bottom: 1px solid #30363d;
-            margin-bottom: 30px; /* Ajout de marge en bas */
+            margin-bottom: 30px; 
         }
 
         .main-nav {
@@ -111,7 +111,7 @@
             font-size: 20px;
         }
 
-        /* --- NOUVEAU STYLE GRILLE DE FILMS DÉTAILLÉS --- */
+       
 
         .movie-grid {
             display: grid;
@@ -131,7 +131,7 @@
         
         .poster-container {
             position: relative;
-            height: 420px; /* Hauteur fixe pour l'affiche */
+            height: 420px;
         }
 
         .poster-container img {
@@ -156,18 +156,18 @@
             display: flex;
             align-items: center;
             gap: 8px;
-            opacity: 0; /* Caché par défaut */
+            opacity: 0;
             transition: opacity 0.3s;
         }
         
         .movie-card:hover .trailer-button {
-            opacity: 1; /* Apparait au survol de la carte */
+            opacity: 1; 
         }
         
         .movie-title {
             padding: 15px;
             text-align: center;
-            min-height: 70px; /* Hauteur min pour aligner les cartes */
+            min-height: 70px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -221,7 +221,7 @@
             background-color: #1c6cd4;
         }
 
-        /* Bouton Flottant WhatsApp */
+        
         .whatsapp-fab {
             position: fixed;
             bottom: 25px;
@@ -364,4 +364,5 @@
     </a>
 
 </body>
+
 </html>
