@@ -1,10 +1,8 @@
 <?php
-  // --- LOGIQUE PHP ---
-
-  // Définit la page actuelle pour la navigation
+ 
   $currentPage = 'sport.php';
 
-  // Simulation d'une base de données pour les matchs de sport
+  
   $matches = [
     [
       'image' => 'derby.jpeg',
@@ -12,7 +10,7 @@
       'alt' => 'Match Raja vs Wydad',
       'datetime' => '14 Septembre 2025 - 20:00',
       'competition' => 'Botola Pro',
-      'status' => 'sold_out' // <-- 1. AJOUT: Statut pour le derby
+      'status' => 'sold_out' 
     ],
     [
       'image' => 'chan.webp',
@@ -59,7 +57,7 @@
         a { color: #ffffff; text-decoration: none; }
         .container { max-width: 1280px; margin: 0 auto; padding: 0 20px; }
 
-        /* En-tête (Header) */
+       
         .site-header { padding: 15px 40px; border-bottom: 1px solid #30363d; margin-bottom: 30px; }
         .main-nav { display: flex; justify-content: space-between; align-items: center; }
         .main-nav ul { list-style-type: none; display: flex; gap: 10px; background-color: #1c2128; padding: 5px; border-radius: 8px; }
@@ -86,16 +84,16 @@
         .ticket-button { background-color: #2386f7; color: #fff; padding: 8px 15px; border-radius: 8px; font-weight: 500; font-size: 13px; transition: background-color 0.3s; }
         .ticket-button:hover { background-color: #1c6cd4; }
 
-        /* <-- 3. AJOUT: Style pour le bouton Sold Out */
+      
         .ticket-button.sold-out {
             background-color: #484f58;
-            cursor: not-allowed; /* Change le curseur pour indiquer que ce n'est pas cliquable */
+            cursor: not-allowed; 
         }
         .ticket-button.sold-out:hover {
-             background-color: #484f58; /* Empêche le changement de couleur au survol */
+             background-color: #484f58; 
         }
 
-        /* Bouton Flottant WhatsApp */
+       
         .whatsapp-fab { position: fixed; bottom: 25px; right: 25px; background-color: #25D366; color: #fff; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 30px; box-shadow: 0 4px 10px rgba(0,0,0,0.3); z-index: 100; }
     </style>
 </head>
@@ -163,10 +161,10 @@
     
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            // Le JavaScript pour le filtrage n'est pas nécessaire sur cette page.
-            // On peut ajouter ici d'autres scripts si besoin.
+           
             console.log("Page Sport chargée.");
         });
     </script>
 </body>
+
 </html>
